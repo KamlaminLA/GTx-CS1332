@@ -76,7 +76,7 @@ public class GraphAlgorithms {
         if (MSTEdges.size() != size) {
             return null;
         }
-
+        System.out.println("good");
         return addOppositeEdge(MSTEdges);
     }
 
